@@ -2,12 +2,16 @@
 
 int main(){
 
-    short int numero;
+    int numero1, numero2;
 
-    printf("Digite dois numeros: \n");
-    scanf("%i", &numero);
+    printf("Digite o 1° numero: \n");
+    scanf("%i", &numero1);
 
-    printf("valor: %i\n", numero);
+    printf("Digite o 2° numero: \n");
+    scanf("%i", &numero2);
+
+
+    printf("valor: %i - %i\n", numero1 , numero2);
 
 
 
