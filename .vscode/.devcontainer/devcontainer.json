@@ -1,0 +1,12 @@
+{
+  "name": "Ambiente C com GCC",
+  "image": "mcr.microsoft.com/devcontainers/cpp:ubuntu-24.04",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools"
+      ]
+    }
+  },
+  "postCreateCommand": "gcc --version && g++ --version"
+}
